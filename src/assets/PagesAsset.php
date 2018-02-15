@@ -15,7 +15,7 @@ class PagesAsset extends AssetBundle
     ];
 
     public $css = [
-        'css/themes/chessed/chessed.css',
+        'css/pages.css',
         'css/pages-icons.css',
     ];
 
@@ -32,7 +32,7 @@ class PagesAsset extends AssetBundle
     {
         parent::init();
 
-        if ($this->theme === null) {
+        if ($this->theme !== null) {
             $this->css = [
                 "css/themes/{$this->theme}/{$this->theme}.css",
                 "css/pages-icons.css",
