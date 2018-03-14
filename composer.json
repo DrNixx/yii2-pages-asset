@@ -30,5 +30,11 @@
     },
      "config": {
         "platform": {"php": "5.6"}
-    }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ]
 }
