@@ -11,12 +11,12 @@ class PagesAsset extends AssetBundle
 
     public $js = [
         'js/pages.js',
-        'js/pages.html.js',
+        'js/pages.jquery-wrapper.js',
     ];
 
     public $css = [
-        'css/pages.css',
         'css/pages-icons.css',
+        'css/pages.css',
     ];
 
     public $depends = [
@@ -34,13 +34,13 @@ class PagesAsset extends AssetBundle
 
         if ($this->theme !== null) {
             $this->css = [
-                "css/themes/{$this->theme}/{$this->theme}.css",
                 "css/pages-icons.css",
+                "css/themes/{$this->theme}/{$this->theme}.css",
             ];
         } else {
             $this->css = [
-                "css/pages.css",
                 "css/pages-icons.css",
+                "css/pages.css",
             ];
         }
 
