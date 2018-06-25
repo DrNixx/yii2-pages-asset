@@ -22,7 +22,6 @@ class PagesAsset extends AssetBundle
     public $depends = [
         'yii\bootstrap\BootstrapAsset',
         'onix\assets\FontAwesomeAsset',
-        'onix\assets\PaceAsset',
         'onix\assets\UnveilAsset',
         'onix\assets\JqueryScrollBarAsset',
         'onix\assets\MousewheelAsset',
