@@ -1,6 +1,7 @@
 <?php
 namespace onix\assets;
 
+use yii\bootstrap4\BootstrapAsset;
 use yii\web\AssetBundle;
 
 class PagesAsset extends AssetBundle
@@ -18,11 +19,11 @@ class PagesAsset extends AssetBundle
     ];
 
     public $depends = [
-        'yii\bootstrap\BootstrapAsset',
-        'onix\assets\FontAwesomeAsset',
-        'onix\assets\UnveilAsset',
-        'onix\assets\JqueryScrollBarAsset',
-        'onix\assets\MousewheelAsset',
+        BootstrapAsset::class,
+        FontAwesomeAsset::class,
+        UnveilAsset::class,
+        JqueryScrollBarAsset::class,
+        MousewheelAsset::class,
     ];
 
     public function init()
