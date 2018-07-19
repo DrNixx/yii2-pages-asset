@@ -2,9 +2,9 @@
 namespace onix\assets;
 
 use yii\bootstrap4\BootstrapAsset;
-use yii\web\AssetBundle;
+use yii\web\AssetBundle as YiiAssetBundle;
 
-class PagesAsset extends AssetBundle
+class PagesAsset extends YiiAssetBundle
 {
     public $sourcePath = '@common/resources/pages';
 
