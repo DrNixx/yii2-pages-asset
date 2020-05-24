@@ -2,8 +2,7 @@
     "name": "drnixx/yii2-pages-asset",
     "description": "Yii2 Assets Bundle for Revox.Io Pages",
     "type": "library",
-    "minimum-stability": "dev",
-    "prefer-stable": true,
+    "minimum-stability": "stable",
     "require": {
         "php": ">=5.6.0",
         "yiisoft/yii2": "~2.0.6",
