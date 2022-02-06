@@ -4,8 +4,23 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e19d0809e25f3f0f599bbdbfc7ff84e0",
+    "content-hash": "a3a233e9181aa2decd9ccc41643ea56d",
     "packages": [
+        {
+            "name": "bower-asset/bootstrap",
+            "version": "v5.1.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/twbs/bootstrap.git",
+                "reference": "1a6fdfae6be09b09eaced8f0e442ca6f7680a61e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/1a6fdfae6be09b09eaced8f0e442ca6f7680a61e",
+                "reference": "1a6fdfae6be09b09eaced8f0e442ca6f7680a61e"
+            },
+            "type": "bower-asset"
+        },
         {
             "name": "bower-asset/font-awesome",
             "version": "v4.7.0",
@@ -31,7 +46,7 @@
             "version": "3.3.11",
             "source": {
                 "type": "git",
-                "url": "git@github.com:RobinHerbots/Inputmask.git",
+                "url": "https://github.com/RobinHerbots/Inputmask.git",
                 "reference": "5e670ad62f50c738388d4dcec78d2888505ad77b"
             },
             "dist": {
@@ -49,16 +64,16 @@
         },
         {
             "name": "bower-asset/jquery",
-            "version": "3.4.1",
+            "version": "3.6.0",
             "source": {
                 "type": "git",
-                "url": "git@github.com:jquery/jquery-dist.git",
-                "reference": "15bc73803f76bc53b654b9fdbbbc096f56d7c03d"
+                "url": "https://github.com/jquery/jquery-dist.git",
+                "reference": "e786e3d9707ffd9b0dd330ca135b66344dcef85a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jquery/jquery-dist/zipball/15bc73803f76bc53b654b9fdbbbc096f56d7c03d",
-                "reference": "15bc73803f76bc53b654b9fdbbbc096f56d7c03d"
+                "url": "https://api.github.com/repos/jquery/jquery-dist/zipball/e786e3d9707ffd9b0dd330ca135b66344dcef85a",
+                "reference": "e786e3d9707ffd9b0dd330ca135b66344dcef85a"
             },
             "type": "bower-asset",
             "license": [
@@ -70,7 +85,7 @@
             "version": "3.1.13",
             "source": {
                 "type": "git",
-                "url": "git@github.com:jquery/jquery-mousewheel.git",
+                "url": "https://github.com/jquery/jquery-mousewheel.git",
                 "reference": "67289b6b2aa0066d7d78a5807f520387135ffb22"
             },
             "dist": {
@@ -103,7 +118,7 @@
             "version": "0.2.11",
             "source": {
                 "type": "git",
-                "url": "git@github.com:gromo/jquery.scrollbar.git",
+                "url": "https://github.com/gromo/jquery.scrollbar.git",
                 "reference": "904265bdc469f21d275ce851542d5c3a01b6fdbf"
             },
             "dist": {
@@ -121,12 +136,12 @@
             "version": "v1.3.2",
             "source": {
                 "type": "git",
-                "url": "https://github.com/bestiejs/punycode.js.git",
+                "url": "https://github.com/mathiasbynens/punycode.js.git",
                 "reference": "38c8d3131a82567bfef18da09f7f4db68c84f8a3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bestiejs/punycode.js/zipball/38c8d3131a82567bfef18da09f7f4db68c84f8a3",
+                "url": "https://api.github.com/repos/mathiasbynens/punycode.js/zipball/38c8d3131a82567bfef18da09f7f4db68c84f8a3",
                 "reference": "38c8d3131a82567bfef18da09f7f4db68c84f8a3"
             },
             "type": "bower-asset"
@@ -210,20 +225,24 @@
                 "markdown",
                 "markdown-extra"
             ],
+            "support": {
+                "issues": "https://github.com/cebe/markdown/issues",
+                "source": "https://github.com/cebe/markdown"
+            },
             "time": "2018-03-26T11:24:36+00:00"
         },
         {
             "name": "drnixx/yii2-fa-asset",
-            "version": "1.0.2",
+            "version": "1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/DrNixx/yii2-fa-asset.git",
-                "reference": "fecaa7a6d9c202a8af03a5396537c7cd612fa4db"
+                "reference": "68862ba52628a5aca4261159144bb556a792663c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/DrNixx/yii2-fa-asset/zipball/fecaa7a6d9c202a8af03a5396537c7cd612fa4db",
-                "reference": "fecaa7a6d9c202a8af03a5396537c7cd612fa4db",
+                "url": "https://api.github.com/repos/DrNixx/yii2-fa-asset/zipball/68862ba52628a5aca4261159144bb556a792663c",
+                "reference": "68862ba52628a5aca4261159144bb556a792663c",
                 "shasum": ""
             },
             "require": {
@@ -248,20 +267,24 @@
                 }
             ],
             "description": "FontAwesome Assets for Yii2",
-            "time": "2018-07-19T17:16:38+00:00"
+            "support": {
+                "issues": "https://github.com/DrNixx/yii2-fa-asset/issues",
+                "source": "https://github.com/DrNixx/yii2-fa-asset/tree/1.0.3"
+            },
+            "time": "2022-02-06T23:10:59+00:00"
         },
         {
             "name": "drnixx/yii2-mousewheel-asset",
-            "version": "1.0.2",
+            "version": "1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/DrNixx/yii2-mousewheel-asset.git",
-                "reference": "58fdb39e7e552b3872ead43748def0b995f6967a"
+                "reference": "a1878ed191fbc22ef606434931fee08d95b4af1f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/DrNixx/yii2-mousewheel-asset/zipball/58fdb39e7e552b3872ead43748def0b995f6967a",
-                "reference": "58fdb39e7e552b3872ead43748def0b995f6967a",
+                "url": "https://api.github.com/repos/DrNixx/yii2-mousewheel-asset/zipball/a1878ed191fbc22ef606434931fee08d95b4af1f",
+                "reference": "a1878ed191fbc22ef606434931fee08d95b4af1f",
                 "shasum": ""
             },
             "require": {
@@ -286,20 +309,24 @@
                 }
             ],
             "description": "Yii2 Assets Bundle for jquery.mousewheel library",
-            "time": "2018-07-19T17:52:52+00:00"
+            "support": {
+                "issues": "https://github.com/DrNixx/yii2-mousewheel-asset/issues",
+                "source": "https://github.com/DrNixx/yii2-mousewheel-asset/tree/1.0.3"
+            },
+            "time": "2022-02-06T22:56:17+00:00"
         },
         {
             "name": "drnixx/yii2-scrollbar-asset",
-            "version": "1.0.2",
+            "version": "1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/DrNixx/yii2-scrollbar-asset.git",
-                "reference": "36ca8d52b5f5f0e7f8f560bdad93fec546b0e6f7"
+                "reference": "663dfcb73381b22147679ef5758d246f297ead16"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/DrNixx/yii2-scrollbar-asset/zipball/36ca8d52b5f5f0e7f8f560bdad93fec546b0e6f7",
-                "reference": "36ca8d52b5f5f0e7f8f560bdad93fec546b0e6f7",
+                "url": "https://api.github.com/repos/DrNixx/yii2-scrollbar-asset/zipball/663dfcb73381b22147679ef5758d246f297ead16",
+                "reference": "663dfcb73381b22147679ef5758d246f297ead16",
                 "shasum": ""
             },
             "require": {
@@ -324,20 +351,24 @@
                 }
             ],
             "description": "Yii2 Assets Bundle for jquery.scrollbar library",
-            "time": "2018-07-19T17:56:34+00:00"
+            "support": {
+                "issues": "https://github.com/DrNixx/yii2-scrollbar-asset/issues",
+                "source": "https://github.com/DrNixx/yii2-scrollbar-asset/tree/1.0.3"
+            },
+            "time": "2022-02-06T22:53:24+00:00"
         },
         {
             "name": "drnixx/yii2-unveil-asset",
-            "version": "1.0.3",
+            "version": "1.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/DrNixx/yii2-unveil-asset.git",
-                "reference": "af3903c7a870ff511aac4c84b62c0a8c474b3b02"
+                "reference": "04102ba4e40456eb240bf97c5f20d90d18475d76"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/DrNixx/yii2-unveil-asset/zipball/af3903c7a870ff511aac4c84b62c0a8c474b3b02",
-                "reference": "af3903c7a870ff511aac4c84b62c0a8c474b3b02",
+                "url": "https://api.github.com/repos/DrNixx/yii2-unveil-asset/zipball/04102ba4e40456eb240bf97c5f20d90d18475d76",
+                "reference": "04102ba4e40456eb240bf97c5f20d90d18475d76",
                 "shasum": ""
             },
             "require": {
@@ -362,27 +393,28 @@
                 }
             ],
             "description": "Yii2 Assets Bundle for jquery.unveil library",
-            "time": "2018-07-19T17:58:25+00:00"
+            "support": {
+                "issues": "https://github.com/DrNixx/yii2-unveil-asset/issues",
+                "source": "https://github.com/DrNixx/yii2-unveil-asset/tree/1.0.4"
+            },
+            "time": "2022-02-06T22:43:37+00:00"
         },
         {
             "name": "ezyang/htmlpurifier",
-            "version": "v4.12.0",
+            "version": "v4.14.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ezyang/htmlpurifier.git",
-                "reference": "a617e55bc62a87eec73bd456d146d134ad716f03"
+                "reference": "12ab42bd6e742c70c0a52f7b82477fcd44e64b75"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ezyang/htmlpurifier/zipball/a617e55bc62a87eec73bd456d146d134ad716f03",
-                "reference": "a617e55bc62a87eec73bd456d146d134ad716f03",
+                "url": "https://api.github.com/repos/ezyang/htmlpurifier/zipball/12ab42bd6e742c70c0a52f7b82477fcd44e64b75",
+                "reference": "12ab42bd6e742c70c0a52f7b82477fcd44e64b75",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.2"
-            },
-            "require-dev": {
-                "simpletest/simpletest": "dev-master#72de02a7b80c6bb8864ef9bf66d41d2f58f826bd"
             },
             "type": "library",
             "autoload": {
@@ -391,6 +423,9 @@
                 },
                 "files": [
                     "library/HTMLPurifier.composer.php"
+                ],
+                "exclude-from-classmap": [
+                    "/library/HTMLPurifier/Language/"
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -409,37 +444,79 @@
             "keywords": [
                 "html"
             ],
-            "time": "2019-10-28T03:44:26+00:00"
-        },
-        {
-            "name": "npm-asset/bootstrap",
-            "version": "4.5.0",
-            "dist": {
-                "type": "tar",
-                "url": "https://registry.npmjs.org/bootstrap/-/bootstrap-4.5.0.tgz"
+            "support": {
+                "issues": "https://github.com/ezyang/htmlpurifier/issues",
+                "source": "https://github.com/ezyang/htmlpurifier/tree/v4.14.0"
             },
-            "type": "npm-asset",
-            "license": [
-                "MIT"
-            ]
+            "time": "2021-12-25T01:21:49+00:00"
         },
         {
-            "name": "yiisoft/yii2",
-            "version": "2.0.35",
+            "name": "paragonie/random_compat",
+            "version": "v9.99.100",
             "source": {
                 "type": "git",
-                "url": "https://github.com/yiisoft/yii2-framework.git",
-                "reference": "d42809e4969cdc0adb97197ba32774b3e4cd9e8e"
+                "url": "https://github.com/paragonie/random_compat.git",
+                "reference": "996434e5492cb4c3edcb9168db6fbb1359ef965a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/d42809e4969cdc0adb97197ba32774b3e4cd9e8e",
-                "reference": "d42809e4969cdc0adb97197ba32774b3e4cd9e8e",
+                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/996434e5492cb4c3edcb9168db6fbb1359ef965a",
+                "reference": "996434e5492cb4c3edcb9168db6fbb1359ef965a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">= 7"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.*|5.*",
+                "vimeo/psalm": "^1"
+            },
+            "suggest": {
+                "ext-libsodium": "Provides a modern crypto API that can be used to generate random bytes."
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Paragon Initiative Enterprises",
+                    "email": "security@paragonie.com",
+                    "homepage": "https://paragonie.com"
+                }
+            ],
+            "description": "PHP 5.x polyfill for random_bytes() and random_int() from PHP 7",
+            "keywords": [
+                "csprng",
+                "polyfill",
+                "pseudorandom",
+                "random"
+            ],
+            "support": {
+                "email": "info@paragonie.com",
+                "issues": "https://github.com/paragonie/random_compat/issues",
+                "source": "https://github.com/paragonie/random_compat"
+            },
+            "time": "2020-10-15T08:29:30+00:00"
+        },
+        {
+            "name": "yiisoft/yii2",
+            "version": "2.0.44",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yiisoft/yii2-framework.git",
+                "reference": "fa89647a2d2c5de1c12c65eb94084404f52a6059"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/fa89647a2d2c5de1c12c65eb94084404f52a6059",
+                "reference": "fa89647a2d2c5de1c12c65eb94084404f52a6059",
                 "shasum": ""
             },
             "require": {
                 "bower-asset/inputmask": "~3.2.2 | ~3.3.5",
-                "bower-asset/jquery": "3.4.*@stable | 3.3.*@stable | 3.2.*@stable | 3.1.*@stable | 2.2.*@stable | 2.1.*@stable | 1.11.*@stable | 1.12.*@stable",
+                "bower-asset/jquery": "3.6.*@stable | 3.5.*@stable | 3.4.*@stable | 3.3.*@stable | 3.2.*@stable | 3.1.*@stable | 2.2.*@stable | 2.1.*@stable | 1.11.*@stable | 1.12.*@stable",
                 "bower-asset/punycode": "1.3.*",
                 "bower-asset/yii2-pjax": "~2.0.1",
                 "cebe/markdown": "~1.0.0 | ~1.1.0 | ~1.2.0",
@@ -447,6 +524,7 @@
                 "ext-mbstring": "*",
                 "ezyang/htmlpurifier": "~4.6",
                 "lib-pcre": "*",
+                "paragonie/random_compat": ">=1",
                 "php": ">=5.4.0",
                 "yiisoft/yii2-composer": "~2.0.4"
             },
@@ -472,13 +550,13 @@
                 {
                     "name": "Qiang Xue",
                     "email": "qiang.xue@gmail.com",
-                    "homepage": "http://www.yiiframework.com/",
+                    "homepage": "https://www.yiiframework.com/",
                     "role": "Founder and project lead"
                 },
                 {
                     "name": "Alexander Makarov",
                     "email": "sam@rmcreative.ru",
-                    "homepage": "http://rmcreative.ru/",
+                    "homepage": "https://rmcreative.ru/",
                     "role": "Core framework development"
                 },
                 {
@@ -489,7 +567,7 @@
                 {
                     "name": "Carsten Brandt",
                     "email": "mail@cebe.cc",
-                    "homepage": "http://cebe.cc/",
+                    "homepage": "https://cebe.cc/",
                     "role": "Core framework development"
                 },
                 {
@@ -516,11 +594,18 @@
                 }
             ],
             "description": "Yii PHP Framework Version 2",
-            "homepage": "http://www.yiiframework.com/",
+            "homepage": "https://www.yiiframework.com/",
             "keywords": [
                 "framework",
                 "yii2"
             ],
+            "support": {
+                "forum": "https://www.yiiframework.com/forum/",
+                "irc": "ircs://irc.libera.chat:6697/yii",
+                "issues": "https://github.com/yiisoft/yii2/issues?state=open",
+                "source": "https://github.com/yiisoft/yii2",
+                "wiki": "https://www.yiiframework.com/wiki/"
+            },
             "funding": [
                 {
                     "url": "https://github.com/yiisoft",
@@ -535,28 +620,30 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-05-02T11:11:31+00:00"
+            "time": "2021-12-30T07:50:56+00:00"
         },
         {
-            "name": "yiisoft/yii2-bootstrap4",
-            "version": "2.0.8",
+            "name": "yiisoft/yii2-bootstrap5",
+            "version": "2.0.2",
             "source": {
                 "type": "git",
-                "url": "https://github.com/yiisoft/yii2-bootstrap4.git",
-                "reference": "c67ae3f3624c35d977841f6b18d0d752ebed6420"
+                "url": "https://github.com/yiisoft/yii2-bootstrap5.git",
+                "reference": "258583d8a61c7a32d7164d9a6dfeb9b9ea0e83fc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-bootstrap4/zipball/c67ae3f3624c35d977841f6b18d0d752ebed6420",
-                "reference": "c67ae3f3624c35d977841f6b18d0d752ebed6420",
+                "url": "https://api.github.com/repos/yiisoft/yii2-bootstrap5/zipball/258583d8a61c7a32d7164d9a6dfeb9b9ea0e83fc",
+                "reference": "258583d8a61c7a32d7164d9a6dfeb9b9ea0e83fc",
                 "shasum": ""
             },
             "require": {
-                "npm-asset/bootstrap": "^4.3",
-                "yiisoft/yii2": "~2.0"
+                "bower-asset/bootstrap": "^5.1.0",
+                "ext-json": "*",
+                "php": ">=7.0",
+                "yiisoft/yii2": "^2.0.42"
             },
             "require-dev": {
-                "phpunit/phpunit": "<7",
+                "phpunit/phpunit": "^6.5.14",
                 "yiisoft/yii2-coding-standards": "~2.0"
             },
             "type": "yii2-extension",
@@ -567,7 +654,7 @@
             },
             "autoload": {
                 "psr-4": {
-                    "yii\\bootstrap4\\": "src"
+                    "yii\\bootstrap5\\": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -576,48 +663,53 @@
             ],
             "authors": [
                 {
-                    "name": "Qiang Xue",
-                    "email": "qiang.xue@gmail.com",
-                    "homepage": "http://www.yiiframework.com/"
-                },
-                {
-                    "name": "Alexander Makarov",
-                    "email": "sam@rmcreative.ru",
-                    "homepage": "http://rmcreative.ru/"
-                },
-                {
-                    "name": "Antonio Ramirez",
-                    "email": "amigo.cobos@gmail.com"
-                },
-                {
-                    "name": "Paul Klimov",
-                    "email": "klimov.paul@gmail.com"
+                    "name": "Sergey Zhukovskiy",
+                    "email": "mylistryx@gmail.com",
+                    "homepage": "https://net23.ru/"
                 },
                 {
                     "name": "Simon Karlen",
                     "email": "simi.albi@outlook.com"
                 }
             ],
-            "description": "The Twitter Bootstrap extension for the Yii framework",
+            "description": "The Twitter Bootstrap v5 extension for the Yii framework",
             "keywords": [
                 "bootstrap",
-                "bootstrap4",
+                "bootstrap5",
                 "yii2"
             ],
-            "time": "2019-10-08T11:01:37+00:00"
+            "support": {
+                "issues": "https://github.com/yiisoft/yii2-bootstrap5/issues",
+                "source": "https://github.com/yiisoft/yii2-bootstrap5"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/yiisoft",
+                    "type": "github"
+                },
+                {
+                    "url": "https://opencollective.com/yiisoft",
+                    "type": "open_collective"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/yiisoft/yii2-bootstrap5",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2021-10-21T20:37:19+00:00"
         },
         {
             "name": "yiisoft/yii2-composer",
-            "version": "2.0.9",
+            "version": "2.0.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-composer.git",
-                "reference": "d191176c4f8372e397a9e3df27360dca6a70efaa"
+                "reference": "94bb3f66e779e2774f8776d6e1bdeab402940510"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-composer/zipball/d191176c4f8372e397a9e3df27360dca6a70efaa",
-                "reference": "d191176c4f8372e397a9e3df27360dca6a70efaa",
+                "url": "https://api.github.com/repos/yiisoft/yii2-composer/zipball/94bb3f66e779e2774f8776d6e1bdeab402940510",
+                "reference": "94bb3f66e779e2774f8776d6e1bdeab402940510",
                 "shasum": ""
             },
             "require": {
@@ -659,6 +751,13 @@
                 "extension installer",
                 "yii2"
             ],
+            "support": {
+                "forum": "http://www.yiiframework.com/forum/",
+                "irc": "irc://irc.freenode.net/yii",
+                "issues": "https://github.com/yiisoft/yii2-composer/issues",
+                "source": "https://github.com/yiisoft/yii2-composer",
+                "wiki": "http://www.yiiframework.com/wiki/"
+            },
             "funding": [
                 {
                     "url": "https://github.com/yiisoft",
@@ -673,7 +772,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-04-20T18:47:46+00:00"
+            "time": "2020-06-24T00:04:01+00:00"
         }
     ],
     "packages-dev": [],
@@ -683,11 +782,11 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=5.6.0"
+        "php": ">=7.0"
     },
     "platform-dev": [],
     "platform-overrides": {
-        "php": "5.6"
+        "php": "7.0"
     },
-    "plugin-api-version": "1.1.0"
+    "plugin-api-version": "2.0.0"
 }
