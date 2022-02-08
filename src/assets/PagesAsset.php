@@ -1,7 +1,7 @@
 <?php
 namespace onix\assets;
 
-use yii\bootstrap4\BootstrapAsset;
+use yii\bootstrap5\BootstrapAsset;
 use yii\web\AssetBundle as YiiAssetBundle;
 
 class PagesAsset extends YiiAssetBundle
